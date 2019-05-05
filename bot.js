@@ -27,7 +27,7 @@ const sql = require("sqlite");
  const pretty = require('pretty-ms') 
 ,ti={}  
 ,spee={};
- const prefix = "^";
+ const prefix = "$";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
